@@ -4,8 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test</title>
+
+    <style>
+        #titulo{
+            font-family: Calibri;
+            letter-spacing: 5px;
+            font-size: 70px;
+            padding-top: 60px;
+        }
+
+        #bloque_botones{
+            padding-top: 20px;
+            word-spacing: 250px;
+        }
+
+        .botones{
+            width: 200px;
+            height: 40px;
+            font-size: 20px;
+            border-radius: 20px;
+            border: 2px solid black;
+        }
+
+        #bloque_fotos{
+            padding-top: 40px;
+            word-spacing: 190px;
+        }
+        
+        .imagenes{
+            border: 4px solid black;
+            border-radius: 50px;
+        }
+    </style>
 </head>
-<body>
-    <a href="/pagina_curriculum/curriculum.html"><input type="button" value="Esto es una prueba"></a>
+<body background="/resources/Fondo de pantalla.jpg">
+    <h1 align="center" id="titulo"><u>YERAY RODRIGUEZ DELGADO</u></h1>
+    
+    <div align="center" id="bloque_fotos">
+        <img src="/resources/Curriculum.png" id="curriculum" class="imagenes">
+        <img src="/resources/Curriculum.png" id="curriculum" class="imagenes">
+        <img src="/resources/Curriculum.png" id="curriculum" class="imagenes">
+    </div>
+    
+    <div align="center" id="bloque_botones">
+        <input type="button" class="botones" id="boton_curriculum" value="Curriculum">
+        <input type="button" class="botones" id="boton_fotos" value="Fotos">
+        <input type="button" class="botones" id="boton_otros" value="Otros">
+    </div>
+    
 </body>
 </html>
