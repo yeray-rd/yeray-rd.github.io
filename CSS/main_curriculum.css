@@ -82,7 +82,8 @@
     justify-content: center;
 }
 
-#intro{
+.parrafos{
+    text-align: justify;
     width: 600px;
     font-size: 18px;
 }
