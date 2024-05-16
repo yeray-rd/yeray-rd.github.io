@@ -9,6 +9,8 @@
     /* Centra los elementos verticalmente */
     padding: 0 20px;
     /* Añade un poco de padding a izquierda y derecha */
+    position: fixed;
+    width: 97%;
 }
 
 /* Estiliza todos los enlaces excepto el título */
@@ -56,6 +58,7 @@
 
 
 /*Foto de perfil*/
+
 #foto{
     
     width: 250px;
@@ -86,4 +89,25 @@
     text-align: justify;
     width: 600px;
     font-size: 18px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+}
+
+#boton_descarga{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+#boton_descarga:hover{
+    background-color: #0056b3;
 }
