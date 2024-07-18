@@ -78,3 +78,7 @@
     width: 100%;
     height: 840px;
 }
+
+#boton_pestaña{
+    border-radius: 40px;
+}
